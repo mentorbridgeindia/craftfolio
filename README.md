@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎨 CraftFolio
 
-## Getting Started
+CraftFolio is an AI-powered platform to **build beautiful portfolios and blogs effortlessly**, with dynamic templates, custom domains, and smart content generation. Designed for students, professionals, freelancers, and creators who want to build a strong online presence with minimal effort.
 
-First, run the development server:
+> ✨ Live it. Write it. Share it. Showcase your journey with CraftFolio.
+
+---
+
+## 🔗 GitHub Repository
+
+[https://github.com/mentorbridgeindia/craftfolio](https://github.com/mentorbridgeindia/craftfolio)
+
+---
+
+## 🛠 Tech Stack
+
+| Tech                      | Description                                |
+| ------------------------- | ------------------------------------------ |
+| **Next.js**               | React framework with SSR, SEO, and routing |
+| **pnpm**                  | Fast, efficient package manager            |
+| **Tailwind CSS**          | Utility-first CSS framework for styling    |
+| **Vercel**                | Hosting & deployment platform              |
+| **Gemini/OpenAI**         | AI for blog and content generation         |
+| **Spring Boot** (planned) | Backend integration for APIs               |
+| **AWS S3**                | File & image storage (for blogs, assets)   |
+
+---
+
+## 🚀 Features
+
+### 🧑‍🎓 Personal Portfolio Builder
+
+- Fill out a simple form to create a professional online portfolio.
+- Choose from a growing collection of responsive, mobile-optimized templates.
+- Preview and publish with a click.
+
+### ✍️ AI-Generated Blogging
+
+- Enter a blog title and synopsis—AI generates full content for you.
+- Built-in editor to refine AI-generated blogs.
+- Blogs are embedded seamlessly into your portfolio.
+
+### 🌐 Domain Management
+
+- Use a **custom domain** or get a subdomain like `username.craftfolio.app`.
+- Fully SEO-optimized structure and dynamic meta tag generation.
+
+### 📊 Analytics & Insights
+
+- Real-time analytics for:
+  - Portfolio views
+  - Blog engagement
+  - Time spent on each post
+- Clean, intuitive dashboard to track performance
+
+### 📣 Social Media Scheduler (Coming Soon)
+
+- Connect LinkedIn, X (Twitter), Instagram, Facebook.
+- Create, schedule, and publish AI-generated or custom content.
+- View post analytics and engagement metrics.
+
+### 💡 Smart Content Suggestions
+
+- AI suggests trending topics and hashtags for blog posts and social content.
+
+### 🎨 Template Ecosystem
+
+- Modular architecture to support multiple themes/templates.
+- Admin dashboard for uploading and managing template assets.
+- All templates mobile-ready, SEO-friendly, and accessible.
+
+## 🧪 Getting Started
+
+1. **Clone the repository:**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/mentorbridgeindia/craftfolio.git
+cd craftfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies with pnpm:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Start the development server:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+pnpm dev
+```
