@@ -1,9 +1,9 @@
 "use client";
 
-import PrivateRoute from "@modules/Security/PrivateRoute";
 import Home from "@modules/Home/Home";
+import PrivateRoute from "@modules/Security/PrivateRoute";
 
-export default function IndexPage() {
+export default function HomePage() {
   return (
     <PrivateRoute>
       <Home />

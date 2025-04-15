@@ -1,12 +1,9 @@
-"use client";
-
+import EditProfile from "@modules/Profile";
 import PrivateRoute from "@modules/Security/PrivateRoute";
-import Home from "@modules/Home/Home";
-
-export default function IndexPage() {
+export default function ProfilePage() {
   return (
     <PrivateRoute>
-      <Home />
+      <EditProfile />
     </PrivateRoute>
   );
 }
