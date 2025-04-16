@@ -24,7 +24,12 @@
       "@entities/*": ["./src/entities/*"],
       "@api/*": ["./src/api/*"],
       "@hooks/*": ["./src/hooks/*"],
-      "@utils/*": ["./src/utils/*"]
+      "@utils/*": ["./src/utils/*"],
+      "@ui/*": ["./src/ui/*"],
+      "@atoms/*": ["./src/ui/atoms/*"],
+      "@molecules/*": ["./src/ui/molecules/*"],
+      "@organisms/*": ["./src/ui/organisms/*"],
+      "@components/*": ["./src/components/*"]
     }
   },
   "include": [
